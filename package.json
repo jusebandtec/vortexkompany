@@ -1,18 +1,9 @@
 {
-  "name": "vortex",
-  "version": "1.0.0",
-  "description": "projeto-vortex",
-  "main": "index.js",
+  "name": "pi-ads-2019-2-root",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "vortex"
-  },
-  "repository": {
-    "type": "git",
-    "url": "vortexkompany"
-  },
-  "keywords": [
-    "joka0810"
-  ],
-  "author": "José Silva",
-  "license": "ISC"
+    "start": "node ./projeto-site/bin/www",
+    "postinstall": "cd projeto-site && npm install"
+  }
 }
