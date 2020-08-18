@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 59px;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#menu-open {
+    font-size: 40px;
+    margin-left: 1%;
+    cursor: pointer;
+    float: left;
+}
+.sidenav {
+    float: left;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow: hidden;
+  }
+  .sidenav a {
+    font-family: 'Text Me One', sans-serif;;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #EF6D32;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.header .logo {
+    width: 283px;
+    margin: auto;
+}
+.header .logo #nome-logo {
+    margin-top: 2%;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: #000000;
+    -webkit-text-stroke: 0.1px #EF6D32;
+    float: left;
+}
+.header .logo #img-logo {
+    height: 53px;
+    float: left;
+    margin-top: 2%;
+}
+.header .compras-login {
+    float: right;
+    width: 100px;
+}
+.header .compras-login img {
+    height: 34px;
+    margin-top: 11%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.foto-fundo {
+    width: 100%;
+    background-image: url('../img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.main {
+    font-family: 'Text Me One', sans-serif;;
+}
+.main .conteudo{
+    width: 100%;
+    margin-top: 5%;
+}
+.main .conteudo img {
+    height: 382px;
+    margin-left: 10%;
+}
+.main .conteudo .texto {
+    margin-left: 10%;
+    width: 40%;
+    float: left;
+}
+.main .conteudo .texto h2 {
+    font-size: 30px;
+}
+.main .conteudo .texto p {
+    font-size: 22px;
+}
+@media (max-width: 727px) {
+    .header {
+        width: 100%;
+    }
+    #menu-open {
+        font-size: 100%;
+    }
+    .foto-fundo {
+        height: 600px;
+    }
+    .main .conteudo {
+        margin-top: 0%;
+        font-size: 12px;
+    }
+    .main .conteudo .texto h2 {
+        font-size: 24px;
+        margin-left: -20px;
+    }
+    .main .conteudo .texto p {
+        width: 100%;
+        font-size: 16px;
+        margin-right: 20px;
+        margin-left: -20px;
+    }
+    .main .conteudo .texto {
+        width: 90%;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .main .conteudo img {
+        width: 270px;
+        margin-top: 20px;
+        margin-left: 11%;
+    }
+    .header #mySidenav {
+        width: 100%;
+    }
+}

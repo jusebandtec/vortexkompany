@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex Kompany</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo-vortex.png" type="image/png" />
+</head>
+<body>
+    <div class="header">
+
+        <a style="font-size:40px;cursor:pointer;color: white;" id="menu-open" onclick="openNav()">&#9776;</a>
+        <div id="mySidenav" class="sidenav">
+            <a style="color: white;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
+            <a href="#">HOME</a>
+            <a href="#">1 COMPRA = 1 DOAÇÃO</a>
+            <a href="#">COLEÇÕES</a>
+            <a href="#">ENTREGAS E FRETES</a>
+            <a href="">SOBRE NÓS</a>
+            <a href="">REDES SOCIAIS</a>
+            <a href="">COLABORAÇÕES</a>
+            <a href="">TERMOS E SERVIÇOS</a>
+        </div>
+        <div class="logo">
+            <h1 id="nome-logo">VORTEX</h1>
+            <img id="img-logo" src="./img/logo-vortex.png" alt="Logo Vortex">
+            <h1 id="nome-logo">KOMPANY</h1>
+        </div>
+        <div class="compras-login">
+            <img src="./img/bag.png" alt="Carrinho de Compras">
+            <img src="./img/user.png" alt="Fazer login">
+        </div>
+    </div>
+
+    <div class="foto-fundo">
+
+    </div>
+
+    <div class="main">
+        <div class="conteudo">
+            <div class="texto">
+                <h2>Quem é a vortex?</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusantium reprehenderit doloremque. Voluptatum soluta obcaecati dignissimos expedita. Aperiam velit iure commodi fuga. Delectus illo quisquam fugiat corrupti, quia quas fuga.
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusantium reprehenderit doloremque. Voluptatum soluta obcaecati dignissimos expedita. Aperiam velit iure commodi fuga. Delectus illo quisquam fugiat corrupti, quia quas fuga.
+                </p>
+            </div>
+            <img src="./img/img-sobre.png" alt="Imagem Sobre">
+        </div>
+    </div>
+    <br><br><br>
+</body>
+</html>
+<script>
+function sizeOfThings(){
+    var windowWidth = window.innerWidth;
+    var windowHeight = window.innerHeight;
+    
+    var screenWidth = screen.width;
+    var screenHeight = screen.height;
+    
+    // document.querySelector('.window-size').innerHTML = windowWidth + 'x' + windowHeight;
+    // document.querySelector('.screen-size').innerHTML = screenWidth + 'x' + screenHeight;
+  
+  };
+    function openNav() {
+        sizeOfThings();
+        var windowWidth = window.innerWidth;
+        var windowHeight = window.innerHeight;
+    
+        var screenWidth = screen.width;
+        var screenHeight = screen.height;
+        var tamanhoTela = screenWidth = '720px';
+        if( screenWidth || windowWidth <  tamanhoTela) {
+            document.getElementById("mySidenav").style.width = "100%";
+        } else {
+            document.getElementById("mySidenav").style.width = "25%";
+        }
+    }
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
