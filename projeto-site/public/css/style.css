@@ -213,6 +213,18 @@
     background-color: #000000;
     display: block;
 }
+@media (max-width: 780px) {
+    .main .conteudo {
+        margin-top: -30%;
+        font-size: 12px;
+    }
+    .opcoes-roupas {
+        margin-top: 20%;
+    }
+    .opcoes-roupas::after {
+        margin-top: 24%;
+    }
+}
 @media (max-width: 727px) {
     .header {
         width: 100%;
