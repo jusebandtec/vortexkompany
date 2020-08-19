@@ -224,7 +224,7 @@
         height: 600px;
     }
     .main .conteudo {
-        margin-top: 0%;
+        margin-top: -100%;
         font-size: 12px;
     }
     .main .conteudo .texto h2 {
@@ -261,9 +261,18 @@
         float: left;
         margin-left: 29%;
     }
+    .opcoes-roupas .shorts {
+        margin-top: 8%;
+    }
+    .opcoes-roupas .calcas {
+        margin-top: 8%;
+    }
+    .opcoes-roupas .blusas {
+        margin-top: 8%;
+    }
     .opcoes-roupas::after {
         content: '';
-        margin-top: 192%;
+        margin-top: 212%;
         margin-left: 10%;
         width: 78%;
         height: 2px;
