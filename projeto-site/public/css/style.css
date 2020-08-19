@@ -251,18 +251,19 @@
         -webkit-text-stroke: 0.7px #EF6D32;
     }
     .opcoes-roupas #camiseta, .opcoes-roupas #calca, .opcoes-roupas #blusa, .opcoes-roupas #short {
-        height: 150px;
+        height: 130px;
     }
     .opcoes-roupas {
-        font-size: 20px;
+        font-size: 16px;
     }
     .opcoes-roupas .blusas, .opcoes-roupas .shorts, .opcoes-roupas .calcas, .opcoes-roupas .camisas {
-        width: 100%;
+        width: 70%;
         float: left;
+        margin-left: 29%;
     }
     .opcoes-roupas::after {
         content: '';
-        margin-top: 218%;
+        margin-top: 192%;
         margin-left: 10%;
         width: 78%;
         height: 2px;
