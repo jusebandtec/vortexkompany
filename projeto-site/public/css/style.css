@@ -110,6 +110,109 @@
 .main .conteudo .texto p {
     font-size: 22px;
 }
+.opcoes-roupas::before {
+    margin-left: 10%;
+    content: '';
+    width: 78%;
+    height: 2px;
+    background-color: #000000;
+    display: block;
+}
+.opcoes-roupas {
+    margin-top: 2%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.opcoes-roupas .camisas {
+    margin-left: 12%;
+    width: 10%;
+    float: left;
+    transition: 0.7s all;
+}
+.opcoes-roupas #camiseta{
+    height: 130px;
+    transition: 0.7s all;
+}
+.opcoes-roupas .camisas:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.7s all;
+}
+.opcoes-roupas #camiseta:hover {
+    transform: scale(1.1,1.1);
+    transition: .7s all;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.opcoes-roupas .shorts {
+    width: 10%;
+    float: left;
+    margin-left: 10%;
+    transition: .7s all;
+}
+.opcoes-roupas .shorts:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.7s all;
+}
+.opcoes-roupas .shorts #short:hover {
+    transform: scale(1.1,1.1);
+    transition: .7s all;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.opcoes-roupas #short {
+    transition: 0.7s all;
+    height: 130px;
+}
+.opcoes-roupas .blusas {
+    width: 10%;
+    float: left;
+    margin-left: 10%;
+    transition: 0.7s all;
+}
+.opcoes-roupas #blusa {
+    height: 130px;
+    transition: 0.7s all;
+}
+.opcoes-roupas .blusas:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.7s all;
+}
+.opcoes-roupas #blusa:hover {
+    transform: scale(1.1,1.1);
+    transition: .7s all;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.opcoes-roupas .calcas {
+    width: 12%;
+    float: left;
+    margin-left: 10%;
+    transition: 0.7s all;
+}
+.opcoes-roupas #calca {
+    height: 130px;
+    transition: 0.7s all;
+}
+.opcoes-roupas .calcas:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.7s all;
+}
+.opcoes-roupas #calca:hover {
+    transform: scale(1.1,1.1);
+    transition: .7s all;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.opcoes-roupas::after {
+    content: '';
+    margin-top: 14%;
+    margin-left: 10%;
+    width: 78%;
+    height: 2px;
+    background-color: #000000;
+    display: block;
+}
 @media (max-width: 727px) {
     .header {
         width: 100%;
@@ -144,7 +247,26 @@
         margin-top: 20px;
         margin-left: 11%;
     }
-    .header #mySidenav {
+    .header .logo #nome-logo {
+        -webkit-text-stroke: 0.7px #EF6D32;
+    }
+    .opcoes-roupas #camiseta, .opcoes-roupas #calca, .opcoes-roupas #blusa, .opcoes-roupas #short {
+        height: 150px;
+    }
+    .opcoes-roupas {
+        font-size: 20px;
+    }
+    .opcoes-roupas .blusas, .opcoes-roupas .shorts, .opcoes-roupas .calcas, .opcoes-roupas .camisas {
         width: 100%;
+        float: left;
+    }
+    .opcoes-roupas::after {
+        content: '';
+        margin-top: 218%;
+        margin-left: 10%;
+        width: 78%;
+        height: 2px;
+        background-color: #000000;
+        display: block;
     }
 }
